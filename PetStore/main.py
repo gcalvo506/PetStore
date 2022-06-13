@@ -5,5 +5,6 @@ def main():
         PATH = 'C:\PetStore\chromedriver.exe'
         driver = webdriver.Chrome(PATH)
         driver.get('https://petstore.octoperf.com/actions/Catalog.action')
+        print(driver.title)
 
 main()
