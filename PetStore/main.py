@@ -4,7 +4,6 @@ from selenium import webdriver
 def main():
         PATH = 'C:\PetStore\chromedriver.exe'
         driver = webdriver.Chrome(PATH)
-
         driver.get('https://petstore.octoperf.com/actions/Catalog.action')
 
 main()
